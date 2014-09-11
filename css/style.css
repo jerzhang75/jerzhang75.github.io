@@ -1,0 +1,24 @@
+.navbar-brand {
+	display: none;
+}
+
+#navigation > li > a {
+	opacity: 0;
+}
+
+.show {
+	opacity: 0;
+}
+
+.hide {
+	opacity: 0;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#navigation > li > a.selected, #navigation > li > a:hover {
+	background: #333;
+	color: #fff;
+}
